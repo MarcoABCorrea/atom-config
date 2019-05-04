@@ -1,0 +1,13 @@
+'body':
+  'ctrl-tab': 'pane:show-next-item'
+  'ctrl-tab ^ctrl': 'unset!'
+  'ctrl-shift-tab': 'pane:show-previous-item'
+  'ctrl-shift-tab ^ctrl': 'unset!'
+'.platform-win32 .editor, .platform-linux .editor':
+  'ctrl-shift-L': 'editor:split-selections-into-lines'
+  'ctrl-shift-up': 'editor:add-selection-above'
+  'ctrl-shift-down': 'editor:add-selection-below'
+'atom-text-editor:not([mini])':
+  'tab': 'emmet:expand-abbreviation-with-tab'
+'.editor:not(.mini)':
+    'ctrl-shift-M': 'markdown-preview:toggle'
